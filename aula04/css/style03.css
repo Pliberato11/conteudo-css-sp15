@@ -1,0 +1,98 @@
+body {
+  background-color: azure;
+  font-family: monospace;
+}
+/* Exemplo inicial de Flexbox */
+.ex1 {
+  background-color: navy;
+  border: 2px solid goldenrod;
+  color: black;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+}
+.ex1 div {
+  background-color: ghostwhite;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  align-content: center;
+}
+/* Utilizando a propriedade flex-direction */
+.ex2 {
+  background-color: navy;
+  border: 2px solid goldenrod;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  /* flex-direction: row; <- esse é o padrão */
+  flex-direction: column;
+}
+.ex2 div {
+  width: 100px;
+  height: 100px;
+  background-color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}
+.ex3 {
+  background-color: navy;
+  border: 2px solid goldenrod;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  flex-direction: row-reverse;
+}
+.ex3 div {
+  width: 100px;
+  height: 100px;
+  background-color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}
+.ex4 {
+  background-color: navy;
+  border: 2px solid goldenrod;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column-reverse;
+}
+.ex4 div {
+  width: 100px;
+  height: 100px;
+  background-color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}
+.wrap {
+  background-color: navy;
+  border: 2px solid goldenrod;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  /* flex-wrap: norap <- valor nrml */
+  flex-wrap: wrap;
+}
+.wrap div {
+   width: 100px;
+  height: 100px;
+  background-color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}
+.wrap-reverse {
+  background-color: navy;
+  border: 2px solid goldenrod;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+    flex-wrap: wrap-reverse;
+}
+.wrap-reverse div {
+   width: 100px;
+  height: 100px;
+  background-color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}
